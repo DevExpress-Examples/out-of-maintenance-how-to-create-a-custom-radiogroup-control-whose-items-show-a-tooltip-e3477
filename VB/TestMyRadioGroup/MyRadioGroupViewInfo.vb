@@ -8,7 +8,7 @@ Imports DevExpress.Utils
 
 
 
-Namespace DevExpress.MyControl
+Namespace TestMyRadioGroup
 	Public Class MyRadioGroupViewInfo
 		Inherits RadioGroupViewInfo
 		Public Sub New(ByVal item As RepositoryItem)

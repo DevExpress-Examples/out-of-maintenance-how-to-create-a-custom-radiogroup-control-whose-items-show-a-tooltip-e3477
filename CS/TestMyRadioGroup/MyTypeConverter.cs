@@ -6,7 +6,7 @@ using System.ComponentModel.Design.Serialization;
 
 
 
-namespace DevExpress.MyControl
+namespace TestMyRadioGroup
 {
     public class MyRadioGroupItemTypeConverter : ExpandableObjectConverter
     {

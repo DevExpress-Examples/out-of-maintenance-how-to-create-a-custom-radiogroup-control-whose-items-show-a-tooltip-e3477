@@ -7,8 +7,8 @@ Imports System.Runtime.CompilerServices
 
 
 
-Namespace DevExpress.MyControl
-	<ToolboxItem(True), DefaultEvent("SelectedIndexChanged"), Description("Supports the selection of one of several options.")> _
+Namespace TestMyRadioGroup
+	<ToolboxItem(True), DefaultEvent("SelectedIndexChanged"), Description("Supports the selection of one of several options.")>
 	Public Class MyRadioGroup
 		Inherits RadioGroup
 		Public Overrides ReadOnly Property EditorTypeName() As String
@@ -19,7 +19,7 @@ Namespace DevExpress.MyControl
 
 
 
-		<DesignerSerializationVisibility(DesignerSerializationVisibility.Content)> _
+		<DesignerSerializationVisibility(DesignerSerializationVisibility.Content)>
 		Public Shadows ReadOnly Property Properties() As RepositoryItemMyRadioGroup
 			Get
 				Return TryCast(MyBase.Properties, RepositoryItemMyRadioGroup)

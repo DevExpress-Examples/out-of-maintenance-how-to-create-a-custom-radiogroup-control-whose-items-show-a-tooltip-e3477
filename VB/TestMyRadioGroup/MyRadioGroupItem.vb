@@ -6,14 +6,14 @@ Imports DevExpress.XtraEditors.Controls
 
 
 
-Namespace DevExpress.MyControl
-   <TypeConverter(GetType(MyRadioGroupItemTypeConverter))> _
-   Public Class MyRadioGroupItem
-	   Inherits RadioGroupItem
+Namespace TestMyRadioGroup
+	<TypeConverter(GetType(MyRadioGroupItemTypeConverter))>
+	Public Class MyRadioGroupItem
+		Inherits RadioGroupItem
 		Private toolTip_Renamed As String
 
 
-		<Browsable(True), Description("Gets or sets tooltip of the item.")> _
+		<Browsable(True), Description("Gets or sets tooltip of the item.")>
 		Public Property ToolTip() As String
 			Get
 				Return toolTip_Renamed
@@ -54,5 +54,5 @@ Namespace DevExpress.MyControl
 		Public Overrides Function Clone() As Object
 			Return New MyRadioGroupItem(Value, Description, Enabled, ToolTip)
 		End Function
-   End Class
+	End Class
 End Namespace

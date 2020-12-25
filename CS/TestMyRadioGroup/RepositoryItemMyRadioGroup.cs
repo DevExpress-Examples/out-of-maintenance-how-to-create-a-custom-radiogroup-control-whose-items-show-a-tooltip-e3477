@@ -8,7 +8,7 @@ using DevExpress.XtraEditors;
 
 
 
-namespace DevExpress.MyControl
+namespace TestMyRadioGroup
 {
     [UserRepositoryItem("RegisterMyRadioGroup")]
     public class RepositoryItemMyRadioGroup : RepositoryItemRadioGroup

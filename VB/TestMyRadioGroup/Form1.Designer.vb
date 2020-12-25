@@ -1,9 +1,11 @@
-<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Imports TestMyRadioGroup.TestMyRadioGroup
+
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class FormMain
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,13 +22,13 @@ Partial Class FormMain
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim MyRadioGroupItem1 As DevExpress.MyControl.MyRadioGroupItem = New DevExpress.MyControl.MyRadioGroupItem
-        Dim MyRadioGroupItem2 As DevExpress.MyControl.MyRadioGroupItem = New DevExpress.MyControl.MyRadioGroupItem
-        Dim MyRadioGroupItem3 As DevExpress.MyControl.MyRadioGroupItem = New DevExpress.MyControl.MyRadioGroupItem
-        Dim MyRadioGroupItem4 As DevExpress.MyControl.MyRadioGroupItem = New DevExpress.MyControl.MyRadioGroupItem
-        Me.MyRadioGroup1 = New DevExpress.MyControl.MyRadioGroup
+        Dim MyRadioGroupItem1 As MyRadioGroupItem = New MyRadioGroupItem
+        Dim MyRadioGroupItem2 As MyRadioGroupItem = New MyRadioGroupItem
+        Dim MyRadioGroupItem3 As MyRadioGroupItem = New MyRadioGroupItem
+        Dim MyRadioGroupItem4 As MyRadioGroupItem = New MyRadioGroupItem
+        Me.MyRadioGroup1 = New MyRadioGroup
         CType(Me.MyRadioGroup1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -65,6 +67,6 @@ Partial Class FormMain
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents MyRadioGroup1 As DevExpress.MyControl.MyRadioGroup
+    Friend WithEvents MyRadioGroup1 As MyRadioGroup
 
 End Class

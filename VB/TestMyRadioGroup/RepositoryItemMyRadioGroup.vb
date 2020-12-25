@@ -10,8 +10,8 @@ Imports DevExpress.XtraEditors.Controls
 
 
 
-Namespace DevExpress.MyControl
-	<UserRepositoryItem("RegisterMyRadioGroup")> _
+Namespace TestMyRadioGroup
+	<UserRepositoryItem("RegisterMyRadioGroup")>
 	Public Class RepositoryItemMyRadioGroup
 		Inherits RepositoryItemRadioGroup
 		Friend Const EDITORTypeName_Renamed As String = "MyRadioGroup"
@@ -23,7 +23,7 @@ Namespace DevExpress.MyControl
 
 
 
-		<Browsable(False)> _
+		<Browsable(False)>
 		Public Shadows ReadOnly Property OwnerEdit() As MyRadioGroup
 			Get
 				Return TryCast(MyBase.OwnerEdit, MyRadioGroup)
@@ -32,7 +32,7 @@ Namespace DevExpress.MyControl
 
 
 
-		<Description("Gets the collection of items displayed by the current radio group editor."), Category(CategoryName.Data), DesignerSerializationVisibility(DesignerSerializationVisibility.Content), Editor("System.ComponentModel.Design.CollectionEditor, System.Design", GetType(System.Drawing.Design.UITypeEditor)), Localizable(True)> _
+		<Description("Gets the collection of items displayed by the current radio group editor."), Category(CategoryName.Data), DesignerSerializationVisibility(DesignerSerializationVisibility.Content), Editor("System.ComponentModel.Design.CollectionEditor, System.Design", GetType(System.Drawing.Design.UITypeEditor)), Localizable(True)>
 		Public Shadows ReadOnly Property Items() As MyRadioGroupItemCollection
 			Get
 				Return TryCast(MyBase.Items, MyRadioGroupItemCollection)
@@ -53,9 +53,9 @@ Namespace DevExpress.MyControl
 
 
 
-        Public Shared Sub RegisterMyRadioGroup()
-            EditorRegistrationInfo.Default.Editors.Add(New EditorClassInfo(EDITORTypeName_Renamed, GetType(MyRadioGroup), GetType(RepositoryItemMyRadioGroup), GetType(MyRadioGroupViewInfo), New RadioGroupPainter(), True, CType(Nothing, Image), GetType(DevExpress.Accessibility.ButtonEditAccessible)))
-        End Sub
+		Public Shared Sub RegisterMyRadioGroup()
+			EditorRegistrationInfo.Default.Editors.Add(New EditorClassInfo(EDITORTypeName_Renamed, GetType(MyRadioGroup), GetType(RepositoryItemMyRadioGroup), GetType(MyRadioGroupViewInfo), New RadioGroupPainter(), True, CType(Nothing, Image), GetType(DevExpress.Accessibility.ButtonEditAccessible)))
+		End Sub
 
 
 		Protected Overrides Function CreateItemCollection() As RadioGroupItemCollection

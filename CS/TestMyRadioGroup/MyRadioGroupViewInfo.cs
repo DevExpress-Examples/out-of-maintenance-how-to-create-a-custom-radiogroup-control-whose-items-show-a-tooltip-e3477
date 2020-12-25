@@ -7,7 +7,7 @@ using DevExpress.Utils;
 
 
 
-namespace DevExpress.MyControl
+namespace TestMyRadioGroup
 {
     public class MyRadioGroupViewInfo : RadioGroupViewInfo
     {

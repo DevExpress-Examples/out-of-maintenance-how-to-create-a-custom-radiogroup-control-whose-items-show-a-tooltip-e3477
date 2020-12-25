@@ -5,7 +5,7 @@ using DevExpress.XtraEditors.Controls;
 
 
 
-namespace DevExpress.MyControl
+namespace TestMyRadioGroup
 {
    [TypeConverter(typeof(MyRadioGroupItemTypeConverter))]
     public class MyRadioGroupItem : RadioGroupItem

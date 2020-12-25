@@ -28,11 +28,11 @@ namespace TestMyRadioGroup
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.MyControl.MyRadioGroupItem myRadioGroupItem1 = new DevExpress.MyControl.MyRadioGroupItem();
-            DevExpress.MyControl.MyRadioGroupItem myRadioGroupItem2 = new DevExpress.MyControl.MyRadioGroupItem();
-            DevExpress.MyControl.MyRadioGroupItem myRadioGroupItem3 = new DevExpress.MyControl.MyRadioGroupItem();
-            DevExpress.MyControl.MyRadioGroupItem myRadioGroupItem4 = new DevExpress.MyControl.MyRadioGroupItem();
-            this.myRadioGroup1 = new DevExpress.MyControl.MyRadioGroup();
+            MyRadioGroupItem myRadioGroupItem1 = new MyRadioGroupItem();
+            MyRadioGroupItem myRadioGroupItem2 = new MyRadioGroupItem();
+            MyRadioGroupItem myRadioGroupItem3 = new MyRadioGroupItem();
+            MyRadioGroupItem myRadioGroupItem4 = new MyRadioGroupItem();
+            this.myRadioGroup1 = new MyRadioGroup();
             ((System.ComponentModel.ISupportInitialize)(this.myRadioGroup1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,7 +78,7 @@ namespace TestMyRadioGroup
 
         #endregion
 
-        private DevExpress.MyControl.MyRadioGroup myRadioGroup1;
+        private MyRadioGroup myRadioGroup1;
 
     }
 }

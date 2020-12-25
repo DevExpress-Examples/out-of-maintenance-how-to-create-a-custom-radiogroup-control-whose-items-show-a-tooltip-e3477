@@ -5,8 +5,8 @@ Imports DevExpress.XtraEditors.Controls
 
 
 
-Namespace DevExpress.MyControl
-	<ListBindable(False)> _
+Namespace TestMyRadioGroup
+	<ListBindable(False)>
 	Public Class MyRadioGroupItemCollection
 		Inherits RadioGroupItemCollection
 		Default Public Shadows Property Item(ByVal index As Integer) As MyRadioGroupItem

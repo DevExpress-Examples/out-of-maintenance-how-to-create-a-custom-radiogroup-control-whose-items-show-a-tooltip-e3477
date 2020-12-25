@@ -4,7 +4,7 @@ using DevExpress.XtraEditors.Controls;
 
 
 
-namespace DevExpress.MyControl
+namespace TestMyRadioGroup
 {
     [ListBindable(false)]
     public class MyRadioGroupItemCollection : RadioGroupItemCollection

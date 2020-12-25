@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 
 
 
-namespace DevExpress.MyControl
+namespace TestMyRadioGroup
 {
     [ToolboxItem(true), DefaultEvent("SelectedIndexChanged"),
      Description("Supports the selection of one of several options.")
